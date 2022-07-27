@@ -742,6 +742,13 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
 }
+@media all and (max-width: 768px){
+    .portfolio-thumb{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 
 .portfolio-row {
     margin-bottom: 44px;
